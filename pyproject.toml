@@ -1,0 +1,87 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pytest-context-assert"
+version = "0.1.0"
+description = "A pytest plugin for context-aware assertions with snapshot-style storage"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [
+    { name = "Marcelo Duarte Trevisani" }
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = [
+    "pytest>=9.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+numpy = ["numpy>=1.20.0"]
+polars = ["polars"]
+pandas = ["pandas"]
+syrupy = ["syrupy"]
+all = ["pytest-context-assert[numpy,polars,pandas,syrupy]"]
+test = [
+    "pytest-context-assert[all]",
+    "pytest-xdist",
+    "pytest-cov",
+]
+dev = [
+    "pytest-context-assert[test,all]",
+    "ruff",
+    "pre-commit",
+]
+
+[project.entry-points.pytest11]
+context_assert = "pytest_context_assert.plugin"
+
+[project.urls]
+Homepage = "https://github.com/marceloduartetrevisani/pytest-context-assert"
+Repository = "https://github.com/marceloduartetrevisani/pytest-context-assert"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pytest_context_assert"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+context_assert_dir = "__snapshots__"
+context_assert_default_rtol = "1e-7"
+context_assert_default_atol = "0"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pytest_context_assert"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.coverage.run]
+source = ["src/pytest_context_assert"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]

@@ -1,0 +1,25 @@
+_metadata:
+  version: 2
+  test_name: test_with_columns
+  created: '2026-01-27T14:30:58.320492+00:00'
+  updated: '2026-01-27T15:44:39.072030+00:00'
+assertions:
+  with_columns_result:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      x:
+      - 1
+      - 2
+      - 3
+      x_doubled:
+      - 2
+      - 4
+      - 6
+      x_squared:
+      - 1
+      - 4
+      - 9
+    type: polars_dataframe

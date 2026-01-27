@@ -1,0 +1,13 @@
+_metadata:
+  version: 2
+  test_name: test_comparison_succeeds_for_matching_values
+  created: '2026-01-27T14:20:31.617573+00:00'
+  updated: '2026-01-27T14:20:31.617575+00:00'
+assertions:
+  matching_value:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 42
+    type: int

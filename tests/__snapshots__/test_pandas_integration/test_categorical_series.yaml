@@ -1,0 +1,23 @@
+_metadata:
+  version: 2
+  test_name: test_categorical_series
+  created: '2026-01-27T14:23:18.321785+00:00'
+  updated: '2026-01-27T15:44:38.746491+00:00'
+assertions:
+  cat_series:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    values:
+    - low
+    - medium
+    - high
+    - medium
+    - low
+    categories:
+    - low
+    - medium
+    - high
+    ordered: true
+    type: categorical_series

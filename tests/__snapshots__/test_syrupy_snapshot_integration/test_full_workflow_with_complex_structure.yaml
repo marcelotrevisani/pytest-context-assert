@@ -1,0 +1,44 @@
+_metadata:
+  version: 2
+  test_name: test_full_workflow_with_complex_structure
+  created: '2026-01-27T14:20:31.567116+00:00'
+  updated: '2026-01-27T14:20:31.567119+00:00'
+assertions:
+  complex_config:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      users:
+        value:
+        - value:
+            name:
+              value: Alice
+              type: str
+            age:
+              value: 30
+              type: int
+          type: dict
+        - value:
+            name:
+              value: Bob
+              type: str
+            age:
+              value: 25
+              type: int
+          type: dict
+        type: list
+      settings:
+        value:
+          theme:
+            value: dark
+            type: str
+          notifications:
+            value: true
+            type: bool
+        type: dict
+      version:
+        value: 1.0
+        type: float
+    type: dict

@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_datetime_array
+  created: '2026-01-24T20:40:36.404404+00:00'
+  updated: '2026-01-27T15:44:37.856671+00:00'
+assertions:
+  datetime_strings:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: '2026-01-01'
+      type: str
+    - value: '2026-01-02'
+      type: str
+    - value: '2026-01-03'
+      type: str
+    type: list

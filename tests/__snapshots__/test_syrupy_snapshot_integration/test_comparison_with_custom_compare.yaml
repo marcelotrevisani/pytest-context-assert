@@ -1,0 +1,13 @@
+_metadata:
+  version: 2
+  test_name: test_comparison_with_custom_compare
+  created: '2026-01-27T14:20:31.622151+00:00'
+  updated: '2026-01-27T14:20:31.622154+00:00'
+assertions:
+  case_insensitive:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: HELLO WORLD
+    type: str

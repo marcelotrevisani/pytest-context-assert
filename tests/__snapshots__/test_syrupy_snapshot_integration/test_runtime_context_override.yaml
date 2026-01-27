@@ -1,0 +1,14 @@
+_metadata:
+  version: 2
+  test_name: test_runtime_context_override
+  created: '2026-01-27T14:20:31.576571+00:00'
+  updated: '2026-01-27T14:20:31.576573+00:00'
+assertions:
+  feature_value:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      feature_flag: enabled
+    value: 100
+    type: int

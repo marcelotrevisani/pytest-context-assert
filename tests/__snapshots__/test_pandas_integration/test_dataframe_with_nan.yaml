@@ -1,0 +1,21 @@
+_metadata:
+  version: 2
+  test_name: test_dataframe_with_nan
+  created: '2026-01-27T14:23:18.351597+00:00'
+  updated: '2026-01-27T15:44:38.785000+00:00'
+assertions:
+  nan_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      a:
+      - 1.0
+      - __NAN__
+      - 3.0
+      b:
+      - __NAN__
+      - 2.0
+      - 3.0
+    type: dataframe

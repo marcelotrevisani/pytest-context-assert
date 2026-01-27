@@ -1,0 +1,72 @@
+_metadata:
+  version: 2
+  test_name: test_multiple_assertions_same_test
+  created: '2026-01-24T20:40:37.856323+00:00'
+  updated: '2026-01-27T15:44:39.247852+00:00'
+assertions:
+  first:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 1
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 1
+    type: int
+  second:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: hello
+    type: str
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: hello
+    type: str
+  third:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    type: list
+  fourth:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      key:
+        value: value
+        type: str
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      key:
+        value: value
+        type: str
+    type: dict

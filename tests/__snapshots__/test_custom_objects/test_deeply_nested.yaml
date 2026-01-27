@@ -1,0 +1,98 @@
+_metadata:
+  version: 2
+  test_name: test_deeply_nested
+  created: '2026-01-24T20:40:35.773228+00:00'
+  updated: '2026-01-27T15:44:37.510328+00:00'
+assertions:
+  deeply_nested:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      level1:
+        value:
+          level2:
+            value:
+              level3:
+                value:
+                  level4:
+                    value:
+                      value:
+                        value: 42
+                        type: int
+                      items:
+                        value:
+                        - value: 1
+                          type: int
+                        - value: 2
+                          type: int
+                        - value: 3
+                          type: int
+                        type: list
+                    type: dict
+                  other:
+                    value: data
+                    type: str
+                type: dict
+            type: dict
+          sibling:
+            value:
+            - value:
+                a:
+                  value: 1
+                  type: int
+              type: dict
+            - value:
+                b:
+                  value: 2
+                  type: int
+              type: dict
+            type: list
+        type: dict
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      level1:
+        value:
+          level2:
+            value:
+              level3:
+                value:
+                  level4:
+                    value:
+                      value:
+                        value: 42
+                        type: int
+                      items:
+                        value:
+                        - value: 1
+                          type: int
+                        - value: 2
+                          type: int
+                        - value: 3
+                          type: int
+                        type: list
+                    type: dict
+                  other:
+                    value: data
+                    type: str
+                type: dict
+            type: dict
+          sibling:
+            value:
+            - value:
+                a:
+                  value: 1
+                  type: int
+              type: dict
+            - value:
+                b:
+                  value: 2
+                  type: int
+              type: dict
+            type: list
+        type: dict
+    type: dict

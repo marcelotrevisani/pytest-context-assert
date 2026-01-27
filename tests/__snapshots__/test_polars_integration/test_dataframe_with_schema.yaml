@@ -1,0 +1,34 @@
+_metadata:
+  version: 2
+  test_name: test_dataframe_with_schema
+  created: '2026-01-27T14:30:58.285251+00:00'
+  updated: '2026-01-27T15:44:38.998332+00:00'
+assertions:
+  typed_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      int_col:
+      - 1
+      - 2
+      - 3
+      float_col:
+      - 1.1
+      - 2.2
+      - 3.3
+      str_col:
+      - a
+      - b
+      - c
+      bool_col:
+      - true
+      - false
+      - true
+    schema:
+      int_col: Int64
+      float_col: Float64
+      str_col: String
+      bool_col: Boolean
+    type: polars_dataframe

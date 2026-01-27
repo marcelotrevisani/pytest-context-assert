@@ -1,0 +1,34 @@
+_metadata:
+  version: 2
+  test_name: test_dataframe_dtypes
+  created: '2026-01-27T14:23:18.234932+00:00'
+  updated: '2026-01-27T15:44:38.727890+00:00'
+assertions:
+  typed_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      int_col:
+      - 1
+      - 2
+      - 3
+      float_col:
+      - 1.1
+      - 2.2
+      - 3.3
+      str_col:
+      - a
+      - b
+      - c
+      bool_col:
+      - true
+      - false
+      - true
+    dtypes:
+      int_col: int64
+      float_col: float64
+      str_col: string
+      bool_col: bool
+    type: dataframe

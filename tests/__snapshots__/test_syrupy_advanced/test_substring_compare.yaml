@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_substring_compare
+  created: '2026-01-24T20:40:37.956276+00:00'
+  updated: '2026-01-27T15:44:39.364756+00:00'
+assertions:
+  substring:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: important message
+    type: str
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: important message
+    type: str

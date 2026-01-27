@@ -1,0 +1,21 @@
+_metadata:
+  version: 2
+  test_name: test_rolling_window
+  created: '2026-01-27T14:23:18.326062+00:00'
+  updated: '2026-01-27T15:44:38.772351+00:00'
+assertions:
+  rolling_mean:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+    - 2.0
+    - 3.0
+    - 4.0
+    - 5.0
+    - 6.0
+    - 7.0
+    - 8.0
+    - 9.0
+    type: series

@@ -1,0 +1,30 @@
+_metadata:
+  version: 2
+  test_name: test_dataclass_list
+  created: '2026-01-24T20:40:35.699684+00:00'
+  updated: '2026-01-27T15:44:37.423999+00:00'
+assertions:
+  dataclass_list:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    points:
+    - x: 1.0
+      y: 1.0
+    - x: 2.0
+      y: 2.0
+    - x: 3.0
+      y: 3.0
+    type: PointList
+  - __context__:
+      platform: darwin
+      arch: arm64
+    points:
+    - x: 1.0
+      y: 1.0
+    - x: 2.0
+      y: 2.0
+    - x: 3.0
+      y: 3.0
+    type: PointList

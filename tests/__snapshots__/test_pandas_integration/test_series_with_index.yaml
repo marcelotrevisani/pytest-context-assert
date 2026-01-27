@@ -1,0 +1,22 @@
+_metadata:
+  version: 2
+  test_name: test_series_with_index
+  created: '2026-01-27T14:23:18.229331+00:00'
+  updated: '2026-01-27T15:44:38.741627+00:00'
+assertions:
+  indexed_series:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+    - 100
+    - 200
+    - 300
+    index:
+    - x
+    - y
+    - z
+    index_name: label
+    name: amounts
+    type: series

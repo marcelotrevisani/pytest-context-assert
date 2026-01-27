@@ -1,0 +1,22 @@
+_metadata:
+  version: 2
+  test_name: test_merge_result
+  created: '2026-01-27T14:23:18.227393+00:00'
+  updated: '2026-01-27T15:44:38.767434+00:00'
+assertions:
+  merged_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      key:
+      - A
+      - B
+      value1:
+      - 1
+      - 2
+      value2:
+      - 4
+      - 5
+    type: dataframe

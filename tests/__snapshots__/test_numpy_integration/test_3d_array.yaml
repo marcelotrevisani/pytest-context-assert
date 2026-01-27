@@ -1,0 +1,26 @@
+_metadata:
+  version: 2
+  test_name: test_3d_array
+  created: '2026-01-24T18:49:14.631015+00:00'
+  updated: '2026-01-27T15:44:37.931049+00:00'
+assertions:
+  array_3d_test:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - - - 1
+        - 2
+      - - 3
+        - 4
+    - - - 5
+        - 6
+      - - 7
+        - 8
+    type: ndarray
+    dtype: int64
+    shape:
+    - 2
+    - 2
+    - 2

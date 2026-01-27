@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_time
+  created: '2026-01-24T20:40:35.740869+00:00'
+  updated: '2026-01-27T15:44:37.471278+00:00'
+assertions:
+  time:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    iso: '15:30:45'
+    type: time
+  - __context__:
+      platform: darwin
+      arch: arm64
+    iso: '15:30:45'
+    type: time

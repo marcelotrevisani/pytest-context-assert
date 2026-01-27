@@ -1,0 +1,120 @@
+_metadata:
+  version: 2
+  test_name: test_mixed_types_structure
+  created: '2026-01-24T20:40:35.782021+00:00'
+  updated: '2026-01-27T15:44:37.524041+00:00'
+assertions:
+  mixed_types:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      string:
+        value: hello
+        type: str
+      int:
+        value: 42
+        type: int
+      float:
+        value: 3.14
+        type: float
+      bool:
+        value: true
+        type: bool
+      none:
+        value: null
+        type: none
+      list:
+        value:
+        - value: 1
+          type: int
+        - value: two
+          type: str
+        - value: 3.0
+          type: float
+        type: list
+      nested_list:
+        value:
+        - value:
+          - value: 1
+            type: int
+          - value: 2
+            type: int
+          type: list
+        - value:
+          - value: 3
+            type: int
+          - value: 4
+            type: int
+          type: list
+        type: list
+      nested_dict:
+        value:
+          a:
+            value:
+              b:
+                value:
+                  c:
+                    value: 1
+                    type: int
+                type: dict
+            type: dict
+        type: dict
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      string:
+        value: hello
+        type: str
+      int:
+        value: 42
+        type: int
+      float:
+        value: 3.14
+        type: float
+      bool:
+        value: true
+        type: bool
+      none:
+        value: null
+        type: none
+      list:
+        value:
+        - value: 1
+          type: int
+        - value: two
+          type: str
+        - value: 3.0
+          type: float
+        type: list
+      nested_list:
+        value:
+        - value:
+          - value: 1
+            type: int
+          - value: 2
+            type: int
+          type: list
+        - value:
+          - value: 3
+            type: int
+          - value: 4
+            type: int
+          type: list
+        type: list
+      nested_dict:
+        value:
+          a:
+            value:
+              b:
+                value:
+                  c:
+                    value: 1
+                    type: int
+                type: dict
+            type: dict
+        type: dict
+    type: dict

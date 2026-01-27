@@ -1,0 +1,30 @@
+_metadata:
+  version: 2
+  test_name: test_custom_compare_with_dict
+  created: '2026-01-21T21:35:38.730984+00:00'
+  updated: '2026-01-27T15:44:37.372497+00:00'
+assertions:
+  dict_compare:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      a:
+        value: 1
+        type: int
+      b:
+        value: 2
+        type: int
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      a:
+        value: 1
+        type: int
+      b:
+        value: 2
+        type: int
+    type: dict

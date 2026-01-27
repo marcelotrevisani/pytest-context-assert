@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_numeric_range_compare
+  created: '2026-01-24T20:40:37.969607+00:00'
+  updated: '2026-01-27T15:44:39.381366+00:00'
+assertions:
+  range_compare:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 50
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 50
+    type: int

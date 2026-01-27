@@ -1,0 +1,24 @@
+_metadata:
+  version: 2
+  test_name: test_context_with_complex_object
+  created: '2026-01-24T20:40:35.791906+00:00'
+  updated: '2026-01-27T15:44:37.535951+00:00'
+assertions:
+  ctx_complex:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      test_type: complex_structure
+    name: TestCorp
+    employee_count: 1
+    founded_year: 2025
+    type: CompanySummary
+  - __context__:
+      platform: darwin
+      arch: arm64
+      test_type: complex_structure
+    name: TestCorp
+    employee_count: 1
+    founded_year: 2025
+    type: CompanySummary

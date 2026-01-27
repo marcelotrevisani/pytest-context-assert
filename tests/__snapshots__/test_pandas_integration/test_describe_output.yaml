@@ -1,0 +1,40 @@
+_metadata:
+  version: 2
+  test_name: test_describe_output
+  created: '2026-01-27T14:23:18.369897+00:00'
+  updated: '2026-01-27T15:44:38.817344+00:00'
+assertions:
+  describe:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      A:
+        count: 5.0
+        mean: 3.0
+        std: 1.5811388300841898
+        min: 1.0
+        25%: 2.0
+        50%: 3.0
+        75%: 4.0
+        max: 5.0
+      B:
+        count: 5.0
+        mean: 30.0
+        std: 15.811388300841896
+        min: 10.0
+        25%: 20.0
+        50%: 30.0
+        75%: 40.0
+        max: 50.0
+      C:
+        count: 5.0
+        mean: 3.3
+        std: 1.7392527130926085
+        min: 1.1
+        25%: 2.2
+        50%: 3.3
+        75%: 4.4
+        max: 5.5
+    type: describe_output

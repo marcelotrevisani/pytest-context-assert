@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_tuple_preserved_as_tuple
+  created: '2026-01-27T14:20:31.643692+00:00'
+  updated: '2026-01-27T14:20:31.643694+00:00'
+assertions:
+  simple_tuple:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    type: tuple

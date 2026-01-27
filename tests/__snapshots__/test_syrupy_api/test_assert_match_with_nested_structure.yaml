@@ -1,0 +1,92 @@
+_metadata:
+  version: 2
+  test_name: test_assert_match_with_nested_structure
+  created: '2026-01-21T21:35:38.940058+00:00'
+  updated: '2026-01-27T15:44:39.619647+00:00'
+assertions:
+  nested_match:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      users:
+        value:
+        - value:
+            name:
+              value: Alice
+              type: str
+            scores:
+              value:
+              - value: 85
+                type: int
+              - value: 90
+                type: int
+              - value: 95
+                type: int
+              type: list
+          type: dict
+        - value:
+            name:
+              value: Bob
+              type: str
+            scores:
+              value:
+              - value: 70
+                type: int
+              - value: 75
+                type: int
+              - value: 80
+                type: int
+              type: list
+          type: dict
+        type: list
+      metadata:
+        value:
+          version:
+            value: 1
+            type: int
+        type: dict
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      users:
+        value:
+        - value:
+            name:
+              value: Alice
+              type: str
+            scores:
+              value:
+              - value: 85
+                type: int
+              - value: 90
+                type: int
+              - value: 95
+                type: int
+              type: list
+          type: dict
+        - value:
+            name:
+              value: Bob
+              type: str
+            scores:
+              value:
+              - value: 70
+                type: int
+              - value: 75
+                type: int
+              - value: 80
+                type: int
+              type: list
+          type: dict
+        type: list
+      metadata:
+        value:
+          version:
+            value: 1
+            type: int
+        type: dict
+    type: dict

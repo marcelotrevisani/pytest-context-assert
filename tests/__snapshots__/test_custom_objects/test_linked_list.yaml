@@ -1,0 +1,26 @@
+_metadata:
+  version: 2
+  test_name: test_linked_list
+  created: '2026-01-24T20:40:35.769316+00:00'
+  updated: '2026-01-27T15:44:37.503026+00:00'
+assertions:
+  linked_list:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    values:
+    - 1
+    - 2
+    - 3
+    - 4
+    type: LinkedList
+  - __context__:
+      platform: darwin
+      arch: arm64
+    values:
+    - 1
+    - 2
+    - 3
+    - 4
+    type: LinkedList

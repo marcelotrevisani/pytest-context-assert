@@ -1,0 +1,24 @@
+_metadata:
+  version: 2
+  test_name: test_date_range
+  created: '2026-01-27T14:30:58.334310+00:00'
+  updated: '2026-01-27T15:44:39.096089+00:00'
+assertions:
+  date_range:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+    - '2026-01-01'
+    - '2026-01-02'
+    - '2026-01-03'
+    - '2026-01-04'
+    - '2026-01-05'
+    - '2026-01-06'
+    - '2026-01-07'
+    - '2026-01-08'
+    - '2026-01-09'
+    - '2026-01-10'
+    name: literal
+    type: polars_date_series

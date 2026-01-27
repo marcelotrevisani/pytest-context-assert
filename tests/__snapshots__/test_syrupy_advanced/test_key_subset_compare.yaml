@@ -1,0 +1,30 @@
+_metadata:
+  version: 2
+  test_name: test_key_subset_compare
+  created: '2026-01-24T20:40:37.965224+00:00'
+  updated: '2026-01-27T15:44:39.376015+00:00'
+assertions:
+  key_subset:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      important:
+        value: 1
+        type: int
+      also_important:
+        value: 2
+        type: int
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      important:
+        value: 1
+        type: int
+      also_important:
+        value: 2
+        type: int
+    type: dict

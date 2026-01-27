@@ -1,0 +1,26 @@
+_metadata:
+  version: 2
+  test_name: test_with_runtime_context
+  created: '2026-01-24T20:40:38.002181+00:00'
+  updated: '2026-01-27T15:44:39.413003+00:00'
+assertions:
+  runtime_ctx:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      runtime_key: runtime_value
+    value:
+      data:
+        value: 123
+        type: int
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+      runtime_key: runtime_value
+    value:
+      data:
+        value: 123
+        type: int
+    type: dict

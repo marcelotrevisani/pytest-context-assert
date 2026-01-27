@@ -1,0 +1,27 @@
+_metadata:
+  version: 2
+  test_name: test_multiple_auto_named_assertions
+  created: '2026-01-27T14:20:31.630165+00:00'
+  updated: '2026-01-27T14:20:31.633081+00:00'
+assertions:
+  assertion_1:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 10
+    type: int
+  assertion_2:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 20
+    type: int
+  assertion_3:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 30
+    type: int

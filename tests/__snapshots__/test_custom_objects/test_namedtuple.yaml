@@ -1,0 +1,22 @@
+_metadata:
+  version: 2
+  test_name: test_namedtuple
+  created: '2026-01-24T20:40:35.715999+00:00'
+  updated: '2026-01-27T15:44:37.441658+00:00'
+assertions:
+  namedtuple:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    lat: 40.7128
+    lon: -74.006
+    name: New York
+    type: Coordinate
+  - __context__:
+      platform: darwin
+      arch: arm64
+    lat: 40.7128
+    lon: -74.006
+    name: New York
+    type: Coordinate

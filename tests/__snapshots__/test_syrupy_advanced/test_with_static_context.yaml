@@ -1,0 +1,28 @@
+_metadata:
+  version: 2
+  test_name: test_with_static_context
+  created: '2026-01-24T20:40:37.992543+00:00'
+  updated: '2026-01-27T15:44:39.401710+00:00'
+assertions:
+  static_ctx:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      env: test
+      version: '1.0'
+    value:
+      result:
+        value: success
+        type: str
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+      env: test
+      version: '1.0'
+    value:
+      result:
+        value: success
+        type: str
+    type: dict

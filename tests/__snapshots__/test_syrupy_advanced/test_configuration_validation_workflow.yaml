@@ -1,0 +1,80 @@
+_metadata:
+  version: 2
+  test_name: test_configuration_validation_workflow
+  created: '2026-01-24T20:40:38.084196+00:00'
+  updated: '2026-01-27T15:44:39.537243+00:00'
+assertions:
+  config_database:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      host:
+        value: localhost
+        type: str
+      port:
+        value: 5432
+        type: int
+      name:
+        value: testdb
+        type: str
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      host:
+        value: localhost
+        type: str
+      port:
+        value: 5432
+        type: int
+      name:
+        value: testdb
+        type: str
+    type: dict
+  config_cache:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      enabled:
+        value: true
+        type: bool
+      ttl:
+        value: 3600
+        type: int
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      enabled:
+        value: true
+        type: bool
+      ttl:
+        value: 3600
+        type: int
+    type: dict
+  config_features:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: feature_a
+      type: str
+    - value: feature_b
+      type: str
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value: feature_a
+      type: str
+    - value: feature_b
+      type: str
+    type: list

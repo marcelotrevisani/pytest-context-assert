@@ -1,0 +1,42 @@
+_metadata:
+  version: 2
+  test_name: test_assertion_count_increments
+  created: '2026-01-21T21:35:38.776648+00:00'
+  updated: '2026-01-27T15:44:37.653569+00:00'
+assertions:
+  assertion_1:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 1
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 1
+    type: int
+  assertion_2:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 2
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 2
+    type: int
+  assertion_3:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 3
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 3
+    type: int

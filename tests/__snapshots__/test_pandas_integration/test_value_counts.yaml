@@ -1,0 +1,16 @@
+_metadata:
+  version: 2
+  test_name: test_value_counts
+  created: '2026-01-27T14:23:18.225284+00:00'
+  updated: '2026-01-27T15:44:38.823878+00:00'
+assertions:
+  value_counts:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      a: 3
+      b: 2
+      c: 1
+    type: value_counts

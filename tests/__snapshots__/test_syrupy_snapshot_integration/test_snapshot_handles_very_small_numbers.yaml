@@ -1,0 +1,13 @@
+_metadata:
+  version: 2
+  test_name: test_snapshot_handles_very_small_numbers
+  created: '2026-01-27T14:20:31.615202+00:00'
+  updated: '2026-01-27T14:20:31.615204+00:00'
+assertions:
+  small_float:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 1.0e-308
+    type: float

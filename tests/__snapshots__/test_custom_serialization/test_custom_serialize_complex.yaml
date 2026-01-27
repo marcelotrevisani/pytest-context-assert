@@ -1,0 +1,28 @@
+_metadata:
+  version: 2
+  test_name: test_custom_serialize_complex
+  created: '2026-01-21T21:35:38.745500+00:00'
+  updated: '2026-01-27T15:44:37.545821+00:00'
+assertions:
+  filtered_data:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    values:
+    - 1
+    - 2
+    - 3
+    metadata:
+      version: 1
+    type: filtered_dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    values:
+    - 1
+    - 2
+    - 3
+    metadata:
+      version: 1
+    type: filtered_dict

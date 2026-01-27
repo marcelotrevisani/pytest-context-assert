@@ -1,0 +1,14 @@
+_metadata:
+  version: 2
+  test_name: test_custom_context_in_snapshot
+  created: '2026-01-27T14:20:31.570243+00:00'
+  updated: '2026-01-27T14:20:31.570245+00:00'
+assertions:
+  prod_value:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      environment: production
+    value: 42
+    type: int

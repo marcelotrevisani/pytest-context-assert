@@ -1,0 +1,74 @@
+_metadata:
+  version: 2
+  test_name: test_ufunc_operations
+  created: '2026-01-24T20:40:36.443404+00:00'
+  updated: '2026-01-27T15:44:37.893193+00:00'
+assertions:
+  ufunc_results:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      sin:
+        value:
+        - value: 0.0
+          type: float
+        - value: 0.49999999999999994
+          type: float
+        - value: 0.7071067811865475
+          type: float
+        - value: 0.8660254037844386
+          type: float
+        - value: 1.0
+          type: float
+        type: list
+      cos:
+        value:
+        - value: 1.0
+          type: float
+        - value: 0.8660254037844387
+          type: float
+        - value: 0.7071067811865476
+          type: float
+        - value: 0.5000000000000001
+          type: float
+        - value: 6.123233995736766e-17
+          type: float
+        type: list
+      tan:
+        value:
+        - value: 0.0
+          type: float
+        - value: 0.5773502691896256
+          type: float
+        - value: 0.9999999999999999
+          type: float
+        - value: 1.7320508075688767
+          type: float
+        type: list
+      exp:
+        value:
+        - value: 1.0
+          type: float
+        - value: 1.6880917949644685
+          type: float
+        - value: 2.1932800507380152
+          type: float
+        - value: 2.849653908226361
+          type: float
+        - value: 4.810477380965351
+          type: float
+        type: list
+      log:
+        value:
+        - value: 0.4210751519978742
+          type: float
+        - value: 0.5796414510841191
+          type: float
+        - value: 0.7164718096906855
+          type: float
+        - value: 0.9442157056960554
+          type: float
+        type: list
+    type: dict

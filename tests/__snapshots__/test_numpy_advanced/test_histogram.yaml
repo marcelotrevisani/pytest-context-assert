@@ -1,0 +1,47 @@
+_metadata:
+  version: 2
+  test_name: test_histogram
+  created: '2026-01-24T20:40:36.140929+00:00'
+  updated: '2026-01-27T15:44:37.789968+00:00'
+assertions:
+  histogram_counts:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - 4
+    - 22
+    - 96
+    - 228
+    - 272
+    - 226
+    - 104
+    - 38
+    - 9
+    - 1
+    type: ndarray
+    dtype: int64
+    shape:
+    - 10
+  histogram_edges:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - -3.2412673400690726
+    - -2.531867456996693
+    - -1.822467573924314
+    - -1.1130676908519344
+    - -0.40366780777955524
+    - 0.30573207529282387
+    - 1.0151319583652039
+    - 1.724531841437583
+    - 2.433931724509962
+    - 3.143331607582341
+    - 3.8527314906547208
+    type: ndarray
+    dtype: float64
+    shape:
+    - 11

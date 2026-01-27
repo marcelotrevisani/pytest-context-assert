@@ -1,0 +1,15 @@
+_metadata:
+  version: 2
+  test_name: test_multiple_custom_context_keys
+  created: '2026-01-27T14:20:31.572707+00:00'
+  updated: '2026-01-27T14:20:31.572709+00:00'
+assertions:
+  env_data:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      environment: staging
+      region: us-east
+    value: staging_data
+    type: str

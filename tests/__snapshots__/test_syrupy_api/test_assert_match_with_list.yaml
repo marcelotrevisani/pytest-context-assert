@@ -1,0 +1,34 @@
+_metadata:
+  version: 2
+  test_name: test_assert_match_with_list
+  created: '2026-01-21T21:35:38.937418+00:00'
+  updated: '2026-01-27T15:44:39.611839+00:00'
+assertions:
+  list_match:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    - value: four
+      type: str
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    - value: four
+      type: str
+    type: list

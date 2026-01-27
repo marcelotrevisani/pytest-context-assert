@@ -1,0 +1,20 @@
+_metadata:
+  version: 2
+  test_name: test_snapshot_handles_negative_values
+  created: '2026-01-27T14:20:31.607174+00:00'
+  updated: '2026-01-27T14:20:31.608531+00:00'
+assertions:
+  negative_int:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: -42
+    type: int
+  negative_float:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: -3.14
+    type: float

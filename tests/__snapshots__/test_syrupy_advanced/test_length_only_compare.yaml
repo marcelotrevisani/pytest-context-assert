@@ -1,0 +1,38 @@
+_metadata:
+  version: 2
+  test_name: test_length_only_compare
+  created: '2026-01-24T20:40:37.960011+00:00'
+  updated: '2026-01-27T15:44:39.369772+00:00'
+assertions:
+  length_only:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    - value: 4
+      type: int
+    - value: 5
+      type: int
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value: 1
+      type: int
+    - value: 2
+      type: int
+    - value: 3
+      type: int
+    - value: 4
+      type: int
+    - value: 5
+      type: int
+    type: list

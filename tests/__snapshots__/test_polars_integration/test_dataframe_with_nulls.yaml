@@ -1,0 +1,25 @@
+_metadata:
+  version: 2
+  test_name: test_dataframe_with_nulls
+  created: '2026-01-27T14:30:58.291722+00:00'
+  updated: '2026-01-27T15:44:39.008044+00:00'
+assertions:
+  null_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      a:
+      - 1
+      - null
+      - 3
+      b:
+      - null
+      - 2.0
+      - 3.0
+      c:
+      - x
+      - null
+      - z
+    type: polars_dataframe

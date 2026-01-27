@@ -1,0 +1,35 @@
+_metadata:
+  version: 2
+  test_name: test_multiindex_dataframe
+  created: '2026-01-27T14:23:18.226830+00:00'
+  updated: '2026-01-27T15:44:38.794856+00:00'
+assertions:
+  multiindex_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      A:
+      - 1
+      - 2
+      - 3
+      - 4
+      B:
+      - 5
+      - 6
+      - 7
+      - 8
+    index_values:
+    - - bar
+      - one
+    - - bar
+      - two
+    - - baz
+      - one
+    - - baz
+      - two
+    index_names:
+    - first
+    - second
+    type: multiindex_dataframe

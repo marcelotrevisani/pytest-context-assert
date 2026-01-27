@@ -1,0 +1,102 @@
+_metadata:
+  version: 2
+  test_name: test_api_response_workflow
+  created: '2026-01-24T20:40:38.030940+00:00'
+  updated: '2026-01-27T15:44:39.452548+00:00'
+assertions:
+  api_response_0:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      status:
+        value: 200
+        type: int
+      data:
+        value:
+          users:
+            value: []
+            type: list
+        type: dict
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      status:
+        value: 200
+        type: int
+      data:
+        value:
+          users:
+            value: []
+            type: list
+        type: dict
+    type: dict
+  api_response_1:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      status:
+        value: 201
+        type: int
+      data:
+        value:
+          id:
+            value: 1
+            type: int
+          message:
+            value: Created
+            type: str
+        type: dict
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      status:
+        value: 201
+        type: int
+      data:
+        value:
+          id:
+            value: 1
+            type: int
+          message:
+            value: Created
+            type: str
+        type: dict
+    type: dict
+  api_response_2:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      status:
+        value: 400
+        type: int
+      data:
+        value:
+          error:
+            value: Bad Request
+            type: str
+        type: dict
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      status:
+        value: 400
+        type: int
+      data:
+        value:
+          error:
+            value: Bad Request
+            type: str
+        type: dict
+    type: dict

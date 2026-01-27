@@ -1,0 +1,24 @@
+_metadata:
+  version: 2
+  test_name: test_with_dynamic_context
+  created: '2026-01-24T20:40:37.996726+00:00'
+  updated: '2026-01-27T15:44:39.407094+00:00'
+assertions:
+  dynamic_ctx:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      platform_test:
+        value: true
+        type: bool
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      platform_test:
+        value: true
+        type: bool
+    type: dict

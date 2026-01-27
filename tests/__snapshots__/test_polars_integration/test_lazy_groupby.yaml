@@ -1,0 +1,22 @@
+_metadata:
+  version: 2
+  test_name: test_lazy_groupby
+  created: '2026-01-27T14:30:58.327807+00:00'
+  updated: '2026-01-27T15:44:39.084190+00:00'
+assertions:
+  lazy_groupby:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      group:
+      - A
+      - B
+      sum:
+      - 3
+      - 7
+      mean:
+      - 1.5
+      - 3.5
+    type: polars_dataframe

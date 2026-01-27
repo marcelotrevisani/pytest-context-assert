@@ -1,0 +1,96 @@
+_metadata:
+  version: 2
+  test_name: test_multi_format_output_workflow
+  created: '2026-01-24T20:40:38.104712+00:00'
+  updated: '2026-01-27T15:44:39.567174+00:00'
+assertions:
+  format_json:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      name:
+        value: Test
+        type: str
+      value:
+        value: 42
+        type: int
+      items:
+        value:
+        - value: 1
+          type: int
+        - value: 2
+          type: int
+        - value: 3
+          type: int
+        type: list
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      name:
+        value: Test
+        type: str
+      value:
+        value: 42
+        type: int
+      items:
+        value:
+        - value: 1
+          type: int
+        - value: 2
+          type: int
+        - value: 3
+          type: int
+        type: list
+    type: dict
+  format_list:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: Test
+      type: str
+    - value: 42
+      type: int
+    - value:
+      - value: 1
+        type: int
+      - value: 2
+        type: int
+      - value: 3
+        type: int
+      type: list
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value: Test
+      type: str
+    - value: 42
+      type: int
+    - value:
+      - value: 1
+        type: int
+      - value: 2
+        type: int
+      - value: 3
+        type: int
+      type: list
+    type: list
+  format_summary:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 'Name: Test, Value: 42'
+    type: str
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 'Name: Test, Value: 42'
+    type: str

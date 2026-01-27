@@ -1,0 +1,15 @@
+_metadata:
+  version: 2
+  test_name: test_high_precision_computation
+  created: '2026-01-24T20:40:36.420698+00:00'
+  updated: '2026-01-27T15:44:37.870903+00:00'
+assertions:
+  high_precision:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      precision: high
+      algorithm: default
+    value: 1.1102230246251565e-15
+    type: float

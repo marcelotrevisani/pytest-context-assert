@@ -1,0 +1,27 @@
+_metadata:
+  version: 2
+  test_name: test_context_aware_matrix_multiply
+  created: '2026-01-24T20:40:36.415369+00:00'
+  updated: '2026-01-27T15:44:37.866410+00:00'
+assertions:
+  ctx_matmul:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      computation_type: matrix_ops
+    value:
+    - - 1.1908677054285048
+      - 0.4322870279616537
+      - 0.9202522777676544
+    - - 0.582380323730945
+      - 0.09291206427035185
+      - 0.6908719739310221
+    - - 0.8724165752771651
+      - 0.3680032737173452
+      - 0.5292672855551304
+    type: ndarray
+    dtype: float64
+    shape:
+    - 3
+    - 3

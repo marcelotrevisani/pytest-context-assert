@@ -1,0 +1,17 @@
+_metadata:
+  version: 2
+  test_name: test_structured_array
+  created: '2026-01-24T20:40:36.395176+00:00'
+  updated: '2026-01-27T15:44:37.848133+00:00'
+assertions:
+  struct_scores:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value: 85.5
+      type: float
+    - value: 90.2
+      type: float
+    type: list

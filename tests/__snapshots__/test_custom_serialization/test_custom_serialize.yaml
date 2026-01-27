@@ -1,0 +1,20 @@
+_metadata:
+  version: 2
+  test_name: test_custom_serialize
+  created: '2026-01-21T21:35:38.743861+00:00'
+  updated: '2026-01-27T15:44:37.540935+00:00'
+assertions:
+  custom_obj:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    x: 10
+    y: 20
+    type: CustomObject
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    x: 10
+    y: 20
+    type: CustomObject

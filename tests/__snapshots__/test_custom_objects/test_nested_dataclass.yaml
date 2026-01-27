@@ -1,0 +1,44 @@
+_metadata:
+  version: 2
+  test_name: test_nested_dataclass
+  created: '2026-01-24T20:40:35.694241+00:00'
+  updated: '2026-01-27T15:44:37.417643+00:00'
+assertions:
+  nested_dataclass:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    name: TechCorp
+    employees:
+    - name: Alice
+      age: 30
+      email: alice@tech.com
+      tags:
+      - dev
+      - lead
+    - name: Bob
+      age: 25
+      email: bob@tech.com
+      tags:
+      - dev
+    founded: '2020-01-15'
+    type: Company
+  - __context__:
+      platform: darwin
+      arch: arm64
+    name: TechCorp
+    employees:
+    - name: Alice
+      age: 30
+      email: alice@tech.com
+      tags:
+      - dev
+      - lead
+    - name: Bob
+      age: 25
+      email: bob@tech.com
+      tags:
+      - dev
+    founded: '2020-01-15'
+    type: Company

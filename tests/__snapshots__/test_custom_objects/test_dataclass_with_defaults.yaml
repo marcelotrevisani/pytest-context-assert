@@ -1,0 +1,24 @@
+_metadata:
+  version: 2
+  test_name: test_dataclass_with_defaults
+  created: '2026-01-24T20:40:35.689955+00:00'
+  updated: '2026-01-27T15:44:37.412384+00:00'
+assertions:
+  dataclass_defaults:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    x: 1.0
+    y: 2.0
+    z: 3.0
+    label: origin
+    type: Point3D
+  - __context__:
+      platform: darwin
+      arch: arm64
+    x: 1.0
+    y: 2.0
+    z: 3.0
+    label: origin
+    type: Point3D

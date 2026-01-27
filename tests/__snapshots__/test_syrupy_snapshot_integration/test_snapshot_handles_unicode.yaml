@@ -1,0 +1,13 @@
+_metadata:
+  version: 2
+  test_name: test_snapshot_handles_unicode
+  created: '2026-01-27T14:20:31.593961+00:00'
+  updated: '2026-01-27T14:20:31.593963+00:00'
+assertions:
+  unicode_string:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: Hello, 世界! 🌍
+    type: str

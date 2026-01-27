@@ -1,0 +1,66 @@
+_metadata:
+  version: 2
+  test_name: test_auto_naming_sequence
+  created: '2026-01-24T20:40:37.881604+00:00'
+  updated: '2026-01-27T15:44:39.285368+00:00'
+assertions:
+  assertion_1:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 0
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 0
+    type: int
+  assertion_2:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 10
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 10
+    type: int
+  assertion_3:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 20
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 20
+    type: int
+  assertion_4:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 30
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 30
+    type: int
+  assertion_5:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 40
+    type: int
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 40
+    type: int

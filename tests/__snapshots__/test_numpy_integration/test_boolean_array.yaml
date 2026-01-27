@@ -1,0 +1,20 @@
+_metadata:
+  version: 2
+  test_name: test_boolean_array
+  created: '2026-01-24T18:49:16.610493+00:00'
+  updated: '2026-01-27T15:44:38.704564+00:00'
+assertions:
+  bool_array:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - true
+    - false
+    - true
+    - false
+    type: ndarray
+    dtype: bool
+    shape:
+    - 4

@@ -1,0 +1,17 @@
+_metadata:
+  version: 2
+  test_name: test_string_series
+  created: '2026-01-27T14:30:58.300437+00:00'
+  updated: '2026-01-27T15:44:39.020139+00:00'
+assertions:
+  string_series:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+    - hello
+    - world
+    - polars
+    name: strings
+    type: polars_series

@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_custom_compare_with_numpy
+  created: '2026-01-24T18:49:14.053592+00:00'
+  updated: '2026-01-27T15:44:37.389739+00:00'
+assertions:
+  numpy_custom:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - 1.0
+    - 2.0
+    - 3.0
+    type: ndarray
+    dtype: float64
+    shape:
+    - 3

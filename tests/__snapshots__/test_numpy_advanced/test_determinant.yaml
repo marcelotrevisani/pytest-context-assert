@@ -1,0 +1,13 @@
+_metadata:
+  version: 2
+  test_name: test_determinant
+  created: '2026-01-24T20:41:24.400303+00:00'
+  updated: '2026-01-27T15:44:37.756200+00:00'
+assertions:
+  determinant:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: -3.000000000000001
+    type: float

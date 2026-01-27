@@ -1,0 +1,118 @@
+_metadata:
+  version: 2
+  test_name: test_data_pipeline_workflow
+  created: '2026-01-24T20:40:38.055334+00:00'
+  updated: '2026-01-27T15:44:39.489125+00:00'
+assertions:
+  pipeline_raw:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value:
+        id:
+          value: 1
+          type: int
+        value:
+          value: 10
+          type: int
+      type: dict
+    - value:
+        id:
+          value: 2
+          type: int
+        value:
+          value: 20
+          type: int
+      type: dict
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value:
+        id:
+          value: 1
+          type: int
+        value:
+          value: 10
+          type: int
+      type: dict
+    - value:
+        id:
+          value: 2
+          type: int
+        value:
+          value: 20
+          type: int
+      type: dict
+    type: list
+  pipeline_transformed:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - value:
+        id:
+          value: 1
+          type: int
+        value:
+          value: 20
+          type: int
+      type: dict
+    - value:
+        id:
+          value: 2
+          type: int
+        value:
+          value: 40
+          type: int
+      type: dict
+    type: list
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+    - value:
+        id:
+          value: 1
+          type: int
+        value:
+          value: 20
+          type: int
+      type: dict
+    - value:
+        id:
+          value: 2
+          type: int
+        value:
+          value: 40
+          type: int
+      type: dict
+    type: list
+  pipeline_aggregated:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      total:
+        value: 60
+        type: int
+      count:
+        value: 2
+        type: int
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      total:
+        value: 60
+        type: int
+      count:
+        value: 2
+        type: int
+    type: dict

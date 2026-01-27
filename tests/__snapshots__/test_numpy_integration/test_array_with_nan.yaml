@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_array_with_nan
+  created: '2026-01-24T18:49:16.601420+00:00'
+  updated: '2026-01-27T15:44:38.695988+00:00'
+assertions:
+  nan_array:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - 1.0
+    - .nan
+    - 3.0
+    type: ndarray
+    dtype: float64
+    shape:
+    - 3

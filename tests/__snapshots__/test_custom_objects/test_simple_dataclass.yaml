@@ -1,0 +1,20 @@
+_metadata:
+  version: 2
+  test_name: test_simple_dataclass
+  created: '2026-01-24T20:40:35.686119+00:00'
+  updated: '2026-01-27T15:44:37.407584+00:00'
+assertions:
+  simple_dataclass:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    x: 3.0
+    y: 4.0
+    type: Point
+  - __context__:
+      platform: darwin
+      arch: arm64
+    x: 3.0
+    y: 4.0
+    type: Point

@@ -1,0 +1,26 @@
+_metadata:
+  version: 2
+  test_name: test_vector
+  created: '2026-01-24T20:40:35.724967+00:00'
+  updated: '2026-01-27T15:44:37.452506+00:00'
+assertions:
+  vector:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    components:
+    - 3.0
+    - 4.0
+    - 0.0
+    magnitude: 5.0
+    type: Vector
+  - __context__:
+      platform: darwin
+      arch: arm64
+    components:
+    - 3.0
+    - 4.0
+    - 0.0
+    magnitude: 5.0
+    type: Vector

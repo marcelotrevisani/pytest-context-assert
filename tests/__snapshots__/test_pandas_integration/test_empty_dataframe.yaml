@@ -1,0 +1,14 @@
+_metadata:
+  version: 2
+  test_name: test_empty_dataframe
+  created: '2026-01-27T14:23:18.326441+00:00'
+  updated: '2026-01-27T15:44:38.733073+00:00'
+assertions:
+  empty_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    columns: []
+    empty: true
+    type: dataframe

@@ -1,0 +1,16 @@
+_metadata:
+  version: 2
+  test_name: test_groupby_aggregation
+  created: '2026-01-27T14:23:18.334623+00:00'
+  updated: '2026-01-27T15:44:38.753072+00:00'
+assertions:
+  groupby_sum:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      A: 90
+      B: 60
+    name: value
+    type: series

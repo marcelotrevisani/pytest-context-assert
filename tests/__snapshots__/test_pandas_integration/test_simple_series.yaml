@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_simple_series
+  created: '2026-01-27T14:23:18.224586+00:00'
+  updated: '2026-01-27T15:44:38.737142+00:00'
+assertions:
+  simple_series:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    name: values
+    type: series

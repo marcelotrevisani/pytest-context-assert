@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_assert_match_with_numpy
+  created: '2026-01-24T18:49:16.902238+00:00'
+  updated: '2026-01-27T15:44:39.645396+00:00'
+assertions:
+  numpy_match:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - 1.0
+    - 2.0
+    - 3.0
+    type: ndarray
+    dtype: float64
+    shape:
+    - 3

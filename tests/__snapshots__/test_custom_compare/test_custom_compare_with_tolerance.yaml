@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_custom_compare_with_tolerance
+  created: '2026-01-21T21:35:38.724726+00:00'
+  updated: '2026-01-27T15:44:37.357845+00:00'
+assertions:
+  custom_tol_test:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 100.0
+    type: float
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 100.0
+    type: float

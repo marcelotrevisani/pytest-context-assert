@@ -1,0 +1,24 @@
+_metadata:
+  version: 2
+  test_name: test_assertion_error_includes_details
+  created: '2026-01-24T20:40:38.023027+00:00'
+  updated: '2026-01-27T15:44:39.431056+00:00'
+assertions:
+  detail_test:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      expected:
+        value: value
+        type: str
+    type: dict
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value:
+      expected:
+        value: value
+        type: str
+    type: dict

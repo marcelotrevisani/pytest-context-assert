@@ -1,0 +1,20 @@
+_metadata:
+  version: 2
+  test_name: test_tuple_in_dict
+  created: '2026-01-27T14:20:31.648829+00:00'
+  updated: '2026-01-27T14:20:31.648831+00:00'
+assertions:
+  tuple_in_dict:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+      coords:
+        value:
+        - value: 10
+          type: int
+        - value: 20
+          type: int
+        type: tuple
+    type: dict

@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_custom_compare_ignores_rtol_atol
+  created: '2026-01-21T21:35:38.729252+00:00'
+  updated: '2026-01-27T15:44:37.367747+00:00'
+assertions:
+  ignore_tol_test:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    value: 1.0
+    type: float
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: 1.0
+    type: float

@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_path
+  created: '2026-01-24T20:40:35.759575+00:00'
+  updated: '2026-01-27T15:44:37.490830+00:00'
+assertions:
+  path:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    path: /usr/local/bin/python
+    type: Path
+  - __context__:
+      platform: darwin
+      arch: arm64
+    path: /usr/local/bin/python
+    type: Path

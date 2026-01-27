@@ -1,0 +1,23 @@
+_metadata:
+  version: 2
+  test_name: test_context_aware_dataframe
+  created: '2026-01-27T14:30:58.348778+00:00'
+  updated: '2026-01-27T15:44:39.119454+00:00'
+assertions:
+  ctx_df:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+      data_source: test
+      version: '1.0'
+    data:
+      x:
+      - 1
+      - 2
+      - 3
+      y:
+      - 4
+      - 5
+      - 6
+    type: polars_dataframe

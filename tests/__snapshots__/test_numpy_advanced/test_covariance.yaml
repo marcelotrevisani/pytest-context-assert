@@ -1,0 +1,21 @@
+_metadata:
+  version: 2
+  test_name: test_covariance
+  created: '2026-01-24T20:40:36.152873+00:00'
+  updated: '2026-01-27T15:44:37.797990+00:00'
+assertions:
+  covariance:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - - 0.82476989363016
+      - 0.7656927972107413
+    - - 0.7656927972107413
+      - 0.9339868250565102
+    type: ndarray
+    dtype: float64
+    shape:
+    - 2
+    - 2

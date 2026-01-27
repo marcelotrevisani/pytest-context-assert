@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_custom_serialize_partial_data
+  created: '2026-01-21T21:35:38.749317+00:00'
+  updated: '2026-01-27T15:44:37.559186+00:00'
+assertions:
+  partial_test:
+  - __context__:
+      platform: darwin
+      arch: arm64
+    important: 42
+    type: partial
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    important: 42
+    type: partial

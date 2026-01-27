@@ -1,0 +1,18 @@
+_metadata:
+  version: 2
+  test_name: test_resample
+  created: '2026-01-27T14:23:18.339406+00:00'
+  updated: '2026-01-27T15:44:38.780121+00:00'
+assertions:
+  resampled:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+    - 6
+    - 39
+    index:
+    - '2026-01-04 00:00:00'
+    - '2026-01-11 00:00:00'
+    type: timeseries

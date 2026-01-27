@@ -1,0 +1,19 @@
+_metadata:
+  version: 2
+  test_name: test_groupby_aggregation
+  created: '2026-01-27T14:30:58.306838+00:00'
+  updated: '2026-01-27T15:44:39.041952+00:00'
+assertions:
+  groupby_sum:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    data:
+      category:
+      - A
+      - B
+      value:
+      - 90
+      - 60
+    type: polars_dataframe

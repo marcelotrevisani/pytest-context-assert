@@ -1,0 +1,34 @@
+_metadata:
+  version: 2
+  test_name: test_full_workflow_with_numpy
+  created: '2026-01-27T14:20:31.556653+00:00'
+  updated: '2026-01-27T14:20:31.558332+00:00'
+assertions:
+  simple_array:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - 1.0
+    - 2.0
+    - 3.0
+    type: ndarray
+    dtype: float64
+    shape:
+    - 3
+  simple_matrix:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value:
+    - - 1
+      - 2
+    - - 3
+      - 4
+    type: ndarray
+    dtype: int64
+    shape:
+    - 2
+    - 2

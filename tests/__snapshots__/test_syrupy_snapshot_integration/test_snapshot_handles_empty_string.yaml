@@ -1,0 +1,13 @@
+_metadata:
+  version: 2
+  test_name: test_snapshot_handles_empty_string
+  created: '2026-01-27T14:20:31.596277+00:00'
+  updated: '2026-01-27T14:20:31.596279+00:00'
+assertions:
+  empty_string:
+  - __context__:
+      platform: darwin
+      arch: arm64
+      blas: openblas
+    value: ''
+    type: str

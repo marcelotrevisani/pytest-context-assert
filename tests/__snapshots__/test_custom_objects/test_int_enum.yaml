@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_int_enum
   created: '2026-01-24T20:40:35.708103+00:00'
-  updated: '2026-01-27T15:44:37.433138+00:00'
+  updated: '2026-01-27T15:48:32.825237+00:00'
 assertions:
   int_enum:
   - __context__:

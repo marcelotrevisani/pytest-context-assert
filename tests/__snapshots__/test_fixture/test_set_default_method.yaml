@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_set_default_method
   created: '2026-01-21T21:35:38.775518+00:00'
-  updated: '2026-01-27T15:44:37.645604+00:00'
+  updated: '2026-01-27T15:48:32.865827+00:00'
 assertions:
   default_value:
   - __context__:

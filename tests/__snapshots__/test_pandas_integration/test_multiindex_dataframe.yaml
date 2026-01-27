@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_multiindex_dataframe
   created: '2026-01-27T14:23:18.226830+00:00'
-  updated: '2026-01-27T15:44:38.794856+00:00'
+  updated: '2026-01-27T15:48:33.219528+00:00'
 assertions:
   multiindex_df:
   - __context__:

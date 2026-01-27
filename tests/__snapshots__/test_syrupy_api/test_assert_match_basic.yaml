@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_assert_match_basic
   created: '2026-01-21T21:35:38.929059+00:00'
-  updated: '2026-01-27T15:44:39.589614+00:00'
+  updated: '2026-01-27T15:48:33.335689+00:00'
 assertions:
   syrupy_style:
   - __context__:

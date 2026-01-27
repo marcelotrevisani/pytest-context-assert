@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_api_response_workflow
   created: '2026-01-24T20:40:38.030940+00:00'
-  updated: '2026-01-27T15:44:39.452548+00:00'
+  updated: '2026-01-27T15:48:33.312100+00:00'
 assertions:
   api_response_0:
   - __context__:

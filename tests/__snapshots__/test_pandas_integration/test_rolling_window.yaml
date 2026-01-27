@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_rolling_window
   created: '2026-01-27T14:23:18.326062+00:00'
-  updated: '2026-01-27T15:44:38.772351+00:00'
+  updated: '2026-01-27T15:48:33.250840+00:00'
 assertions:
   rolling_mean:
   - __context__:

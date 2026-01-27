@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_categorical_series
   created: '2026-01-27T14:23:18.321785+00:00'
-  updated: '2026-01-27T15:44:38.746491+00:00'
+  updated: '2026-01-27T15:48:33.207653+00:00'
 assertions:
   cat_series:
   - __context__:

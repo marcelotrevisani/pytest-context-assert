@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_float_tolerance
   created: '2026-01-27T14:30:58.367049+00:00'
-  updated: '2026-01-27T15:44:39.145687+00:00'
+  updated: '2026-01-27T15:48:33.033965+00:00'
 assertions:
   tol_df:
   - __context__:

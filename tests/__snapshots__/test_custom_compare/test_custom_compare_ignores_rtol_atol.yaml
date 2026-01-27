@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_compare_ignores_rtol_atol
   created: '2026-01-21T21:35:38.729252+00:00'
-  updated: '2026-01-27T15:44:37.367747+00:00'
+  updated: '2026-01-27T15:48:32.848294+00:00'
 assertions:
   ignore_tol_test:
   - __context__:

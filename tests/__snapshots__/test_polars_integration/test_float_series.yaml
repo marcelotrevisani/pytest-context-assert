@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_float_series
   created: '2026-01-27T14:30:58.297702+00:00'
-  updated: '2026-01-27T15:44:39.016201+00:00'
+  updated: '2026-01-27T15:48:33.033082+00:00'
 assertions:
   float_series:
   - __context__:

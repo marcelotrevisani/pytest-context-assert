@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_simple_dataframe
   created: '2026-01-27T14:30:58.281171+00:00'
-  updated: '2026-01-27T15:44:38.987669+00:00'
+  updated: '2026-01-27T15:48:33.034908+00:00'
 assertions:
   simple_df:
   - __context__:

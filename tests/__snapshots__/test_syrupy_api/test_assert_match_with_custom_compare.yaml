@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_assert_match_with_custom_compare
   created: '2026-01-21T21:35:38.932137+00:00'
-  updated: '2026-01-27T15:44:39.597793+00:00'
+  updated: '2026-01-27T15:48:33.298558+00:00'
 assertions:
   syrupy_compare:
   - __context__:

@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_record_array
   created: '2026-01-24T20:40:36.400385+00:00'
-  updated: '2026-01-27T15:44:37.852733+00:00'
+  updated: '2026-01-27T15:48:32.897632+00:00'
 assertions:
   rec_x_sum:
   - __context__:

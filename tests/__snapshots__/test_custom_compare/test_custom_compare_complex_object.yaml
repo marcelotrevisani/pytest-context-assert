@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_compare_complex_object
   created: '2026-01-21T21:35:38.741534+00:00'
-  updated: '2026-01-27T15:44:37.402327+00:00'
+  updated: '2026-01-27T15:48:32.856855+00:00'
 assertions:
   point_compare:
   - __context__:

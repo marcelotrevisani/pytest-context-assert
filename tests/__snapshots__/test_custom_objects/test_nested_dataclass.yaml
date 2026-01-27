@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_nested_dataclass
   created: '2026-01-24T20:40:35.694241+00:00'
-  updated: '2026-01-27T15:44:37.417643+00:00'
+  updated: '2026-01-27T15:48:32.879433+00:00'
 assertions:
   nested_dataclass:
   - __context__:

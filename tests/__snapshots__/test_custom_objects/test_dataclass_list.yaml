@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_dataclass_list
   created: '2026-01-24T20:40:35.699684+00:00'
-  updated: '2026-01-27T15:44:37.423999+00:00'
+  updated: '2026-01-27T15:48:32.814782+00:00'
 assertions:
   dataclass_list:
   - __context__:

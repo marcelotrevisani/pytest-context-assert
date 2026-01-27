@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_array_with_inf
   created: '2026-01-24T18:49:16.606189+00:00'
-  updated: '2026-01-27T15:44:38.700342+00:00'
+  updated: '2026-01-27T15:48:33.725452+00:00'
 assertions:
   inf_array:
   - __context__:

@@ -48,7 +48,7 @@ jobs:
         run: uv sync --all-extras --python ${{ matrix.python-version }}
 
       - name: Run tests
-        run: uv run pytest -n auto tests/ -vv --cov=src/pytest_context_assert --cov-report=xml
+        run: uv run --python .venv pytest -n auto tests/ -vv --cov=src/pytest_context_assert --cov-report=xml
 
       - name: Upload coverage to Codecov
         if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.12'

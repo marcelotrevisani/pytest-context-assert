@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_configuration_validation_workflow
   created: '2026-01-24T20:40:38.084196+00:00'
-  updated: '2026-01-27T15:44:39.537243+00:00'
+  updated: '2026-01-27T15:48:33.293845+00:00'
 assertions:
   config_database:
   - __context__:

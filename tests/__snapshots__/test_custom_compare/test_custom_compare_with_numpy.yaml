@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_compare_with_numpy
   created: '2026-01-24T18:49:14.053592+00:00'
-  updated: '2026-01-27T15:44:37.389739+00:00'
+  updated: '2026-01-27T15:48:32.838484+00:00'
 assertions:
   numpy_custom:
   - __context__:

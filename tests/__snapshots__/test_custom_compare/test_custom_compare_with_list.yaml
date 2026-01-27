@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_compare_with_list
   created: '2026-01-21T21:35:38.733054+00:00'
-  updated: '2026-01-27T15:44:37.377931+00:00'
+  updated: '2026-01-27T15:48:32.820781+00:00'
 assertions:
   list_compare:
   - __context__:

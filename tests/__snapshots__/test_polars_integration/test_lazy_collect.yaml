@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_lazy_collect
   created: '2026-01-27T14:30:58.324133+00:00'
-  updated: '2026-01-27T15:44:39.077592+00:00'
+  updated: '2026-01-27T15:48:33.093390+00:00'
 assertions:
   lazy_collect:
   - __context__:

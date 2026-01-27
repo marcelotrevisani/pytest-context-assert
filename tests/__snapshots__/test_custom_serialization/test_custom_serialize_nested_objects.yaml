@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_serialize_nested_objects
   created: '2026-01-21T21:35:38.754202+00:00'
-  updated: '2026-01-27T15:44:37.571890+00:00'
+  updated: '2026-01-27T15:48:32.861028+00:00'
 assertions:
   nested_test:
   - __context__:

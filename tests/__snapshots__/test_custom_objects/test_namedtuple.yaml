@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_namedtuple
   created: '2026-01-24T20:40:35.715999+00:00'
-  updated: '2026-01-27T15:44:37.441658+00:00'
+  updated: '2026-01-27T15:48:32.840515+00:00'
 assertions:
   namedtuple:
   - __context__:

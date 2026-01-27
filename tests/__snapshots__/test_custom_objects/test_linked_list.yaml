@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_linked_list
   created: '2026-01-24T20:40:35.769316+00:00'
-  updated: '2026-01-27T15:44:37.503026+00:00'
+  updated: '2026-01-27T15:48:32.865596+00:00'
 assertions:
   linked_list:
   - __context__:

@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_compare_with_none
   created: '2026-01-21T21:35:38.739751+00:00'
-  updated: '2026-01-27T15:44:37.397751+00:00'
+  updated: '2026-01-27T15:48:32.850157+00:00'
 assertions:
   none_compare:
   - __context__:

@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_mixed_named_and_auto
   created: '2026-01-24T20:40:37.911946+00:00'
-  updated: '2026-01-27T15:44:39.320457+00:00'
+  updated: '2026-01-27T15:48:33.287421+00:00'
 assertions:
   explicit_first:
   - __context__:

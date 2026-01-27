@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_serialize_precision_control
   created: '2026-01-21T21:35:38.752582+00:00'
-  updated: '2026-01-27T15:44:37.567924+00:00'
+  updated: '2026-01-27T15:48:32.855085+00:00'
 assertions:
   precision_test:
   - __context__:

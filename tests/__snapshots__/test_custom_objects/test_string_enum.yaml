@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_string_enum
   created: '2026-01-24T20:40:35.704181+00:00'
-  updated: '2026-01-27T15:44:37.429103+00:00'
+  updated: '2026-01-27T15:48:32.820747+00:00'
 assertions:
   string_enum:
   - __context__:

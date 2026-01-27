@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_compare_with_exception_handling
   created: '2026-01-21T21:35:38.738121+00:00'
-  updated: '2026-01-27T15:44:37.393696+00:00'
+  updated: '2026-01-27T15:48:32.843690+00:00'
 assertions:
   exception_test:
   - __context__:

@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_with_columns
   created: '2026-01-27T14:30:58.320492+00:00'
-  updated: '2026-01-27T15:44:39.072030+00:00'
+  updated: '2026-01-27T15:48:33.087046+00:00'
 assertions:
   with_columns_result:
   - __context__:

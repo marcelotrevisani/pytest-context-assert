@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_named_assertion_doesnt_increment_counter
   created: '2026-01-21T21:35:38.779368+00:00'
-  updated: '2026-01-27T15:44:37.657095+00:00'
+  updated: '2026-01-27T15:48:32.822376+00:00'
 assertions:
   named:
   - __context__:

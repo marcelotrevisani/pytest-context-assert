@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_named_assertions
   created: '2026-01-21T21:35:38.767510+00:00'
-  updated: '2026-01-27T15:44:37.629026+00:00'
+  updated: '2026-01-27T15:48:32.845940+00:00'
 assertions:
   first:
   - __context__:

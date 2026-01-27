@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_masked_array
   created: '2026-01-24T20:40:36.391127+00:00'
-  updated: '2026-01-27T15:44:37.843766+00:00'
+  updated: '2026-01-27T15:48:32.883036+00:00'
 assertions:
   masked_mean:
   - __context__:

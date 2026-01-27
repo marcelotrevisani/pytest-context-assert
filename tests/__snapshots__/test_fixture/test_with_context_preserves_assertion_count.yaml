@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_with_context_preserves_assertion_count
   created: '2026-01-21T21:35:38.780056+00:00'
-  updated: '2026-01-27T15:44:37.662042+00:00'
+  updated: '2026-01-27T15:48:32.830298+00:00'
 assertions:
   assertion_1:
   - __context__:

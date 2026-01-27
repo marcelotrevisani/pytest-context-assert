@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_complex_array
   created: '2026-01-24T18:51:41.457168+00:00'
-  updated: '2026-01-27T15:44:37.947611+00:00'
+  updated: '2026-01-27T15:48:32.875769+00:00'
 assertions:
   complex_array:
   - __context__:

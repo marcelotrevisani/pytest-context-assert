@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_dataframe_with_schema
   created: '2026-01-27T14:30:58.285251+00:00'
-  updated: '2026-01-27T15:44:38.998332+00:00'
+  updated: '2026-01-27T15:48:33.046109+00:00'
 assertions:
   typed_df:
   - __context__:

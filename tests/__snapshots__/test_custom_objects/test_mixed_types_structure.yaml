@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_mixed_types_structure
   created: '2026-01-24T20:40:35.782021+00:00'
-  updated: '2026-01-27T15:44:37.524041+00:00'
+  updated: '2026-01-27T15:48:32.894413+00:00'
 assertions:
   mixed_types:
   - __context__:

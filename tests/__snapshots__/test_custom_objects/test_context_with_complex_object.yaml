@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_context_with_complex_object
   created: '2026-01-24T20:40:35.791906+00:00'
-  updated: '2026-01-27T15:44:37.535951+00:00'
+  updated: '2026-01-27T15:48:32.816137+00:00'
 assertions:
   ctx_complex:
   - __context__:

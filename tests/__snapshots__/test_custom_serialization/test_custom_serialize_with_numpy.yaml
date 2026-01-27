@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_custom_serialize_with_numpy
   created: '2026-01-24T18:49:14.093279+00:00'
-  updated: '2026-01-27T15:44:37.555338+00:00'
+  updated: '2026-01-27T15:48:32.839683+00:00'
 assertions:
   numpy_container:
   - __context__:

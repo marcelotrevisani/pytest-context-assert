@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_array_shape_mismatch_fails
   created: '2026-01-24T18:49:14.640149+00:00'
-  updated: '2026-01-27T15:44:37.939475+00:00'
+  updated: '2026-01-27T15:48:32.903037+00:00'
 assertions:
   shape_mismatch:
   - __context__:

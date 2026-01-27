@@ -2,7 +2,7 @@ _metadata:
   version: 2
   test_name: test_empty_dataframe
   created: '2026-01-27T14:30:58.288949+00:00'
-  updated: '2026-01-27T15:44:39.003848+00:00'
+  updated: '2026-01-27T15:48:33.052084+00:00'
 assertions:
   empty_df:
   - __context__:

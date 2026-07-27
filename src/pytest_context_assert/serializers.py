@@ -360,12 +360,12 @@ class PandasSerializer(Serializer):
 
         if type_name == "pandas.DataFrame":
             df = pd.DataFrame(data["value"])
-            if "index" in data and data["index"]:
+            if data.get("index"):
                 df.index = pd.Index(data["index"], name=data.get("index_name"))
             return df
         elif type_name == "pandas.Series":
             s = pd.Series(data["value"], name=data.get("name"))
-            if "index" in data and data["index"]:
+            if data.get("index"):
                 s.index = pd.Index(data["index"], name=data.get("index_name"))
             return s
 

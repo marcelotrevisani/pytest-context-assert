@@ -2,8 +2,7 @@
 
 from __future__ import annotations
 
-
-from pytest_context_assert import set_context, get_platform, get_arch
+from pytest_context_assert import get_arch, get_platform, set_context
 
 
 class TestLinearAlgebra:

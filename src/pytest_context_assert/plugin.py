@@ -228,7 +228,6 @@ def pytest_collection_modifyitems(
     session: pytest.Session, config: pytest.Config, items: list[pytest.Item]
 ) -> None:
     """Modify test collection if needed."""
-    pass
 
 
 def pytest_report_header(config: pytest.Config) -> list[str]:

@@ -11,9 +11,7 @@ from pathlib import Path
 from typing import Any, NamedTuple
 from uuid import UUID
 
-
 from pytest_context_assert import set_context
-
 
 # ============================================================================
 # Custom Classes for Testing
@@ -116,7 +114,7 @@ class Matrix:
 class Tree:
     """Binary tree node."""
 
-    def __init__(self, value: Any, left: "Tree | None" = None, right: "Tree | None" = None):
+    def __init__(self, value: Any, left: Tree | None = None, right: Tree | None = None):
         self.value = value
         self.left = left
         self.right = right
@@ -125,7 +123,7 @@ class Tree:
 class LinkedListNode:
     """Linked list node."""
 
-    def __init__(self, value: Any, next_node: "LinkedListNode | None" = None):
+    def __init__(self, value: Any, next_node: LinkedListNode | None = None):
         self.value = value
         self.next = next_node
 

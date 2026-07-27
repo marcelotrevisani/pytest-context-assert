@@ -8,9 +8,8 @@ from typing import Any
 
 import pytest
 
-from pytest_context_assert import set_context, build_context
+from pytest_context_assert import build_context, set_context
 from pytest_context_assert.fixture import ContextAssertionError, MissingSnapshotError
-
 
 # ============================================================================
 # Helper Classes
